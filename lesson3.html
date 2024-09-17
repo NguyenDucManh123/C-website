@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="classstyle2.css">
+
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="logo-header">
+            <div class="logo">My Logo</div>
+        </div>
+        <div class="nav-header">
+            <nav class="dashboard-nav">
+                <ul>
+                    <li><a href="index.php"><span class="icon">🏠</span> Home</a></li>
+                    <li><a href="lesson1.html"><span class="icon">📘</span> Lesson</a></li>
+                    <li><a href="conline.html"><span class="icon">💻</span> Code Online</a></li>
+                    <li><a href="about.html"><span class="icon">ℹ️</span> About Us</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <a href="login.php" class="sign-in-button">Sign In</a>
+            </div>            
+        </div>
+    </header>
+
+    <div class="container">
+        <aside >
+            <ul>
+                <li><a href="lesson1.html">C++ Intro</a></li>
+                <li><a href="lesson2.html">C++ Get Start</a></li>
+                <li><a href="lesson3.html">C++ Syntax</a></li>
+                <li><a href="lesson4.html">C++ Output</a></li>
+                <li><a href="lesson5.html">C++ Comments</a></li>
+                <li><a href="lesson6.html">C++ Variable</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <h1>1) C++ Syntax</h1>
+            <p>Let's break up the following code to understand it better:</p>
+            <img class="img" src="images/img5.png" alt="">
+            <h1>2) Example explained</h1>
+            <p><strong>Line 1:</strong> <span style="color: red">#include &lt;iostream&gt;</span> is a <strong>header file library</strong> that lets us work with input and output objects, such as <span style="color:red">cout</span> (used in line 5). Header files add functionality to C++ programs.</p>
+            <p><strong>Line 2:</strong> <span style="color:red">using namespace std</span> means that we can use names for objects and variables from the standard library.</p>
+            <div class="text-box">
+                <p>Don't worry if you don't understand how <code>#include &lt;iostream&gt;</code> and <code>using namespace std</code> works. Just think of it as something that (almost) always appears in your program.</p>
+            </div>
+            <p><strong>Line 1: </strong> A blank line. C++ ignores white space. But we use it to make the code more readable.</p>
+            <p><strong>Line 4: </strong> Another thing that always appear in a C++ program is <span style="color:red">int main().</span> This is called a function. Any code inside its curly brackets <span style="color:red">{}</span> will be executed.</p>
+            <p><strong>Line 5: </strong><span style="color:red">cout</span> (pronounced "see-out") is an object used together with the insertion operator (<span style="color:red"><<</span>) to output/print text. In our example, it will output "Hello World!".</p>
+            <p><span>Note: </span> Every C++ statement ends with a semicolon <span style="color:red">;</span>.</p>
+            <p><span>Note: </span> The body of <span style="color:red">int main()</span> could also been written as:<span style="color:red">int main () { cout << "Hello World! "; return 0; }</span></p>
+            <p><span>Remember: </span> The compiler ignores white spaces. However, multiple lines makes the code more readable.</p>
+            <p><span>Line 6: </span> <span style="color:red">return 0;</span> ends the main function.</p>
+            <p><span>Line 7: </span> Do not forget to add the closing curly bracket <span style="color:red"> } </span> to actually end the main function.</p>
+    
+            <div class="button-container">
+                <button class="button" onclick="location.href='lesson2.html'">Previous</button>
+                <button class="button" onclick="location.href='lesson4.html'">Next</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

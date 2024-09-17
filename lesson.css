@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.dashboard-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, #333, #444);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-header {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-header {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.dashboard-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.dashboard-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+}
+
+.dashboard-nav ul li {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.dashboard-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.dashboard-nav ul li a:hover {
+    color: #00ADEF;
+    text-decoration: underline;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-buttons img {
+    height: 30px;
+    width: auto;
+    cursor: pointer;
+    margin-left: 10px;
+}
